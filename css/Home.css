@@ -1,0 +1,48 @@
+header,main,footer {
+    padding: 25px;
+}
+
+header, footer {
+    text-align: center;
+}
+
+main {
+  background-color: #835aa5;
+}
+
+header {
+    background-color: #000000;
+    min-height: 10vh;
+    color: #ffffff;
+  }
+
+
+  footer {
+    color: #a296ac;
+    background-color: #171D1C;
+
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+footer .redes {
+    font-size: 1.5em;
+}
+
+footer .redes i {
+    color:#a296ac;
+    ;
+    ;
+    transition: 0.2s all;
+}
+
+footer .redes i:hover {
+    color: #a16dcc;
+}
+
+
+
+
+
+
